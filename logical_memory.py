@@ -23,3 +23,10 @@ print(f"the varible score has a value of {score} and is saved at {id(score)}")
 score = 25
 
 print(f"the varible score has a value of {score} and is saved at {id(score)}")
+
+height = 5.9
+city = "Denver"
+zip_code = 80202
+
+price1 = 10
+price2 = 10
