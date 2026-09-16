@@ -25,8 +25,20 @@ score = 25
 print(f"the varible score has a value of {score} and is saved at {id(score)}")
 
 height = 5.9
+
+print(f"the varible height has a value of {height} and is saved at the {id(height)}")
+
 city = "Denver"
+
+print(f"the variable city havs a value of {city} and is saved at the {id(city)}")
+
 zip_code = 80202
 
+print(f"the varible zip_code height has a value of {zip_code} and is saved at the {id(zip_code)}")
+
 price1 = 10
+
+print(f"the varible price1 has a value of {price1} and is saved at the {id(price1)} ")
+
 price2 = 10
+print(f"the varible has a price2 has a value of {price2} and is saved at the {id(price2)}")
