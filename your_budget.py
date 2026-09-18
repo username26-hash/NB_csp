@@ -23,3 +23,22 @@ while True:
            print("you forgot to put your monthy utilities")           
 
 
+while True:
+    try:
+        utilities = float(input("what is your monthly groceries?"))
+        break
+    except:
+           print("you forgot to put your monthly grocieries")  
+
+
+while True:
+    try:
+        utilities = float(input("what is your monthly transportation?"))
+        break
+    except:
+           print("you forot to put your monthly transportation") 
+
+
+
+
+    
