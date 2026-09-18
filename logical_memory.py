@@ -14,23 +14,23 @@ print(f"the varible name has a value of {name} and is saved at {id(name)}")
 
 age = 14
 
-print(f"the varible age has a value of {age} and is saved at {id(age)}")
+print(f"the variable age has a value of {age} and is saved at {id(age)}")
 
 score = 10
 
-print(f"the varible score has a value of {score} and is saved at {id(score)}")
+print(f"the variable score has a value of {score} and is saved at {id(score)}")
 
-score = 25
+score2 = 25
 
-print(f"the varible score has a value of {score} and is saved at {id(score)}")
+print(f"the variable score has a value of {score} and is saved at {id(score)}")
 
 height = 5.9
 
-print(f"the varible height has a value of {height} and is saved at the {id(height)}")
+print(f"the variable height has a value of {height} and is saved at the {id(height)}")
 
 city = "Denver"
 
-print(f"the variable city havs a value of {city} and is saved at the {id(city)}")
+print(f"the variable city has a value of {city} and is saved at the {id(city)}")
 
 zip_code = 80202
 
