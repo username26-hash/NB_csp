@@ -25,7 +25,7 @@ while True:
 
 while True:
     try:
-        utilities = float(input("what is your monthly groceries?"))
+        grocieries= float(input("what is your monthly groceries?"))
         break
     except:
            print("you forgot to put your monthly grocieries")  
@@ -33,12 +33,21 @@ while True:
 
 while True:
     try:
-        utilities = float(input("what is your monthly transportation?"))
+        transportation = float(input("what is your monthly transportation?"))
         break
     except:
-           print("you forot to put your monthly transportation") 
+           print("you forgot to put your monthly transportation") 
 
+save= round(income/10,2)
 
+print(f"your rent is ${rent:.2f} and that is {round(rent/income*100)} % of your income")
 
+print(f"your utilities is ${utilities:.2f} and that is {round(utilities/income*100)} % of your income ")
 
-    
+print(f"your groceries are ${grocieries:.2f} and that is {round(grocieries/income*100)} % of your inocome")
+
+print(f"your transportation is ${transportation:.2f} and that is {round(transportation/income*100)} % of your income")
+
+print(f"you should save ${save:.2f} a month that is 10% of your income")
+
+print(f"you have ${income-rent-utilities-grocieries-transportation-save:.2f} of spending money each month!")
