@@ -1,16 +1,11 @@
 #NB password strength p7
 
-charecters= False 
-uppercase= False
-lowercase= False
-number= False
-symbol= False
-length= False
-requirements= 0
+charecters, uppercase, lowercase, number, symbol, length= False, False, False, False, False, False
+requirements_met= 0
 
-password= input("what is your password")
+password= input("MyPassword123!")
 
-password_length = len (password)
+password_length = len(password)
    
 if password_length >= 8:
     length= True
@@ -29,9 +24,6 @@ for letters in password:
 
 
 if length== True:
-     class requirements_met:
-          ...
-
      requirements_met += 1
 if uppercase== True:
      requirements_met += 1

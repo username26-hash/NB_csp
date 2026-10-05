@@ -3,19 +3,17 @@
 import random
 
 answer = random.randint(1, 100)
-guesses = 0
+guess_count = 0
 
-while guesses < 6:
+while guess_count < 6:
 	guess = int(input("Guess a number from 1 to 100: "))
-	guesses = guesses + 1
-
+	guess_count += 1
 	if guess == answer:
-		print(f"Correct you got it in {guesses} tries!")
+		print(f"Correct you got it in {guess_count} tries!")
 		break
 	elif guess < answer:
 		print("Guess higher")
 	else:
 		print("Guess lower")
-
-if guess != answer:
+if guess_count == 6:
 	print(f"Your out of tries. The answer was {answer}")

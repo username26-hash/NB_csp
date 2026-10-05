@@ -8,5 +8,4 @@ person= input("tell me a persons name: ").strip()
 
 noun= input("tell me a noun: ").strip()
 
-
-print("pizza was invented by a" +adjective+ +nationality+ "chef named" +person+ "to make pizza you need to take a lump of" +noun+ "and make a thin round" +adjective+ +noun+ "then your done!")
+print ("Pizza was invented by a " + adjective + " " + nationality + " chef named " + person + ". To make pizza you need to take a lump of " + noun + " and make a thin round " + adjective + " " + noun + ". Then you're done!")
